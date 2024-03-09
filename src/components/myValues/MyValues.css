@@ -1,0 +1,64 @@
+.myValues{
+    padding-inline: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    gap: 4rem;
+    margin-block-end: 4rem;
+}
+.leftSideValues{
+    overflow: hidden;
+}
+.leftSideValues img{
+    object-fit: cover;
+    border-radius: 10px;
+}
+.rightSideValues .values{
+    margin-block-start: 2rem;
+}
+.rightSideValues .value{
+    border: 2px solid rgb(238, 238, 238);
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+.rightSideValues h2{
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(255, 185, 8);
+}
+.rightSideValues p.text{
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    color: #132a88;
+    margin-block: 8px;
+}
+.rightSideValues span.description{
+    color: rgb(131, 130, 130);
+}
+.rightSideValues .value .overview p{
+    margin: 0;
+    color: #132a88;
+    font-weight: 700;
+}
+.rightSideValues .value .overview{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.rightSideValues .value p.description{
+    padding-inline: 1rem;
+    color: rgb(131, 130, 130);
+}
+
+.overview span{
+    background-color: rgb(236, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 3px;
+}

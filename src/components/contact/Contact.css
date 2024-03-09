@@ -1,0 +1,88 @@
+.contactContainer{
+    margin-inline: 2rem;
+    background-color: #132a88;
+    margin-bottom: 4rem;
+    border-radius: 10px;
+    padding-block: 2rem;
+}
+.contactContainer h1{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.contactContainer p{
+    color: rgb(189, 188, 188);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.contactBlock{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding-inline: 5rem;
+}
+.contactWrapper{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    flex-grow: 1;
+    flex-basis: 1;
+    /* min-width: 200px; */
+}
+.contact{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+.contact span.icon{
+    background-color: rgb(236, 235, 235);
+    margin-left: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 3px;
+}
+.contactInfo{
+    margin-left: 1rem;
+}
+.contact .contactInfo>:nth-child(1){
+    color: #132a88;
+    font-weight: 700;
+    display: block;
+}
+.contact .contactInfo>:nth-child(2){
+    color: rgb(131, 130, 130);
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+}
+.actionBtn{
+    background-color: #d3dcff;
+    color: #132a88;
+    padding-block: 4px;
+    font-size: 12px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.socials{
+    text-align: center;
+    margin-top: 1rem;
+}
+.socials a{
+    margin-right: 8px;
+}

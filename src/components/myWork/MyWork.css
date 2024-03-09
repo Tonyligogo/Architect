@@ -1,0 +1,39 @@
+.myWorkContainer{
+    border-radius: 10px;
+}
+.myWorkContainer:hover{
+    background-color: #ecf0ff;
+    overflow: hidden;
+}
+.imgContainer{
+    width: 300px;
+    height: 232px;
+    object-fit: cover;
+}
+.imgContainer img{
+    height: 100%;
+}
+.cardContent{
+    margin-top: 8px;
+    padding-inline: 4px;
+    padding-bottom: 14px;
+}
+.cardContent .price{
+    font-weight: 600;
+    font-size: 16px;
+}
+.cardContent .price .currency{
+    color: rgb(255, 185, 8);
+}
+.cardContent .location{
+    margin: 0;
+    color: #132a88;
+    margin-top: 8px;
+}
+.cardContent .description{
+    margin: 0;
+    color: rgb(131, 130, 130);
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 8px;
+}
